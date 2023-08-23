@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <p class='internalCSS'> This element has a margin of 70px.
+        </p>
+        <style>
+          .internalCSS{
+          border: solid #4caf50;
+          border-width: 1px;
+
+          margin: 70px 1000px 70px 70px;
+        }
+        </style>  
+      <p class='internalCSS1'> This element has a margin of 70px.
+        <style>
+          .internalCSS1{
+          border: solid #4caf50;
+          border-width: 1px;
+
+          margin: 70px 900px 70px 70px;
+          padding: 70px;
+        }
+        div.relative {
+            position:relative;
+            width: 180px;
+            height: 170px;
+            border: 2px solid red;
+        }
+        div.absolute{
+            position: absolute;
+            top: 70px;
+            right:0;
+            left: -2px;
+            bottom: 70px;
+            width: 180px;
+            height: 20px;
+            border: 2px solid #73ad21;
+        }
+        </style>
+      <div class='relative'> 
+        <div class='absolute'>I am vertically centered.</div>
+    </div>
+      </html>
