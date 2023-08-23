@@ -1,0 +1,38 @@
+#bt1 {
+    border: 1px solid black;
+    margin: 70px 0 70px 70px;
+}
+
+#bt2 {
+    border: 1px solid black;
+    padding: 70px 0 70px 70px;
+    display: block;
+}
+
+.bt21 {
+    padding: 70px 0;
+    border: 2px solid red;
+    display: inline-block;
+}
+
+#bt22 {
+    border: 1px solid red;
+}
+
+#bt3 {
+    display: flex;
+
+}
+
+.bt31 {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #AEC5D1;
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.bt31:hover {
+    background-color: #E1E8ED;
+}

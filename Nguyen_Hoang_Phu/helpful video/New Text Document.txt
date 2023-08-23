@@ -1,0 +1,7 @@
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://www.youtube.com/watch?v=2plKBskaKfY
+
+https://www.google.com/search?q=how+not+to+overlap+content+when+use+span&sca_esv=559344913&sxsrf=AB5stBi6VABJuPp7m6dmBTPlRjAwSzEN5w%3A1692783219667&ei=c9LlZLafKPe02roP-5SC-AY&ved=0ahUKEwj2pPXzvPKAAxV3mlYBHXuKAG8Q4dUDCA8&uact=5&oq=how+not+to+overlap+content+when+use+span&gs_lp=Egxnd3Mtd2l6LXNlcnAiKGhvdyBub3QgdG8gb3ZlcmxhcCBjb250ZW50IHdoZW4gdXNlIHNwYW4yBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABSKJaUABY3lhwDHgBkAEEmAG0A6AB2zqqAQowLjQ3LjIuMC4xuAEDyAEA-AEBwgIEECMYJ8ICBxAAGIoFGEPCAggQLhiABBixA8ICCxAAGIAEGLEDGIMBwgIREC4YgAQYsQMYgwEYxwEY0QPCAgsQLhiABBixAxiDAcICBRAAGIAEwgILEAAYigUYsQMYgwHCAggQABiABBixA8ICBRAuGIAEwgIIEC4YsQMYgATCAgcQLhiKBRhDwgIIEAAYgAQYywHCAggQLhiABBjLAcICCBAhGBYYHhgdwgIGEAAYFhgewgIIEAAYFhgeGArCAgkQABgNGBMYgATCAggQABgWGB4YE8ICBRAAGKIE4gMEGAAgQYgGAQ&sclient=gws-wiz-serp
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/flex?retiredLocale=vi
