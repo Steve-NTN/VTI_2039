@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.max-width{
+    max-width: 500px;
+}
+.ex1{
+    margin: 70px;
+    border: 1px solid greenyellow;
+}
+.ex2{
+    padding: 70px;
+    border: 1px solid greenyellow;
+}
+.ex3{
+    margin-top: 50px;
+    width: 160px;
+    height: 120px;
+    border: 1px solid red; 
+}
+.ex3 p{
+    border: 1px solid green;
+    margin-top: 60px ;
+    transform: translateY(-50%);
+}
+.ex4{
+    margin: 100px 20px;
+    max-width: 1000px;
+
+}
+.ul{
+    display: inline-block;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    background: white
+}
+.li{
+    padding: 20px;
+    background: grey;
+    width: 16.5%;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+.li:hover{
+    background: gainsboro;
+    text-shadow: 1px 1px black
+}
+/* ///////////////////end/////////////////////// */
