@@ -1,0 +1,21 @@
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ .title {
+    color: rgb(19, 19, 25);
+    background-image: url(/Trang.jpg) ;
+    background-position: center;  
+    height: 200px;  
+}
+.abc {
+    color: blueviolet;
+}
+h2 {
+    border: solid red 1px;
+} */ */
+.line1{
+    margin-left: 70px;
+}
