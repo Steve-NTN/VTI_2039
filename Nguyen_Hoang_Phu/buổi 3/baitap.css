@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bmenu {
+    background-color: #5F9EA0;
+    height: 40px;
+    text-align: center;
+}
+
+.banner {
+    background-color: #13DD67;
+    text-align: center;
+    height: 300px;
+}
+
+.main1 {
+    display: flex;
+}
+
+.main11 {
+    height: 150px;
+    text-align: center;
+    width: calc(100%/3);
+}
+
+.main11__left {
+    background-color: #8B0000;
+}
+
+.main11__center {
+    background-color: #B7CEB4;
+}
+
+.main11__right {
+    background-color: #E9125A;
+}
+
+.main2 {
+    display: flex;
+}
+
+.main21 {
+    height: 200px;
+    text-align: center;
+    width: calc(100%/2);
+}
+
+.main21__left {
+    background-color: #7CFC00;
+}
+
+.main21__right {
+    background-color: #4300FC;
+}
+
+.bfoot {
+    height: 60px;
+    background-color: #9932cc;
+    text-align: center;
+}
