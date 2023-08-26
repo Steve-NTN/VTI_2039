@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+#mybox{
+    display: flex;
+}
+
+.box{
+    height: 100px;
+    flex: 1;
+}
+.box1 .box2 .box3 {
+    background-color: white;
+}
