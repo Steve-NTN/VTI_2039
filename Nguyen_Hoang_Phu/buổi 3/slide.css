@@ -1,0 +1,25 @@
+.ex1 {
+    width: 300px;
+    background-color: yellow;
+}
+
+.ex2 {
+    width: 300px;
+    padding: 25px;
+    background-color: blue;
+    box-sizing: border-box;
+}
+
+.box1:checked {
+    width: 100px;
+    height: 100px;
+}
+
+.dv::first-letter {
+    color: red;
+    font-size: 20px;
+}
+
+.dv::before {
+    background-image: url();
+}
