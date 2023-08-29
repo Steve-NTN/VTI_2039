@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .imageclass{
+        height: 800px;
+        background-image: url(./Images/logo\ weldcom\ TV.jpg);
+        background-repeat: no repeat;
+        background-position: center;
+        .colorclass{
+          color :#000=black
+        }
+      }
+      /* .a {
+        background-color: red;
+        height: 50px;
+      } */
+    </style>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập 4</title>
+  </head>
+  <body>
+    <!-- Bài tập 4 -->
+    <form>
+      
+      <h2 class="imageclass">Register</h2>
+        <em>Please <b>fill in this form </b> to create an account</em>
+      </p>
+      <label>Full name: </label>
+      <br />
+      <input placeholder="input your full name" type="text" />
+      <br /><br />
+      <label>Usename:</label>
+      <br />
+      <input placeholder="input your use name" type="text" />
+      <br /><br />
+      <label>Password:</label>
+      <br />
+      <input placeholder="input your use password" type="password" />
+      <br /><br />
+      <label>email:</label>
+      <br />
+      <input placeholder="input your use email" type="email" />
+      <br /><br />
+      <label>Telephone number:</label>
+      <br />
+      <input placeholder="input your phone number" type="number" />
+      <br /><br />
+      <label>Input Object: </label> <br />
+      <input type="radio" name="Input Object" />Student
+      <input type="radio" name="Input Object" />Teacher <br /><br />
+      <label>Favorite: </label> <br />
+      <input type="checkbox" name="Favorite" />Game
+      <input type="checkbox" name="Favorite" />football
+      <input type="checkbox" name="Favorite" />other <br /><br />
+      <label>Address:</label> <br />
+      <input list="Address" name="Address" />
+      <datalist id="Address">
+        <option value="Bắc Giang"></option>
+        <option value="Hà Nội"></option>
+        <option value="Nam Định"></option>
+        <option value="Hưng Yên"></option>
+      </datalist>
+      <br /><br />
+      <label>Birthday: </label>
+      <br />
+      <input type="date" />
+      <br /><br />
+      <label>Your picture: </label>
+      <br />
+      <input type="file" name="pic" />
+      <br /><br />
+      <input type="button" value="Đăng ký" />
+      <br />
+      <br />
+    </form>
+  </body>
+</html>

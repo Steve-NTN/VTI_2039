@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex {
+            display: flex;
+            background-color: aqua;
+            flex-direction: column;
+        }
+
+        .flex>div {
+            margin: 10px;
+        }
+
+        .header,
+        .footer {
+            background-color: blue;
+            height: 100px;
+            color: aliceblue;
+            text-align: center;
+            align-content: center;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: row;
+            height: 700px;
+        }
+
+        .main>div {
+            margin: 10px;
+        }
+
+        .aside {
+            background-color: chartreuse;
+            width: 25%;
+        }
+
+        .article {
+            background-color: orange;
+            position: relative;
+            width: 75%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            align-content: space-between;
+        }
+
+        .article>div {
+            margin: 10px;
+        }
+
+       .article_p{
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+       }
+
+        .image {
+            background-color: gold;
+            width: 33%;
+            height: 300px;
+            color: aliceblue;
+            display: flex;
+            justify-self: center;
+            align-items: center;
+            text-align: center;
+            justify-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex">
+        <div class="header">
+            <p>Header</p>
+        </div>
+        <div class="main">
+            <div class="aside"></div>
+            <div class="article">
+                <p class="article_p">article</p>
+                <div class="image">image</div>
+                <div class="image">image</div>
+                <div class="image">image</div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Footer</p>
+        </div>
+    </div>
+</body>
+
+</html>

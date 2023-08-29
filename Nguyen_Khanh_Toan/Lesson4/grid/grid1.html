@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BT1</title>
+    <style>
+        *{
+            margin: 0;
+            
+            background-color:whitesmoke;
+            padding: 10px;
+        }
+        .gridbox{
+            display: grid;
+            height: 600px;
+            grid-template-rows: 20% 80% 20%;
+            grid-template-columns: 225 50% 25%;
+            gap: 10px;
+            
+        }
+        .header, .footer{
+            background-color: blue;
+            color: white;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: 25% 50% 25%;
+        }
+        .nav{
+            background-color:aqua;
+            align-content: center;
+            text-align: center;
+            color: white;
+            justify-content: center;
+        }
+        .maincontent{
+            background-color: gray;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="gridbox">
+        <div class="header">header</div>
+        <div class="main">
+            <div class="nav">nav</div>
+            <div class="maincontent">maincontent</div>
+            <div class="nav">nav</div>
+        </div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+</html>

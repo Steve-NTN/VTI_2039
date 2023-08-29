@@ -1,0 +1,22 @@
+.all{
+    background-color: red;
+    height: 100px;
+    color: brown;
+    font-size: 20px;
+}
+/* }
+body{
+    background-color: blueviolet;
+} */
+h1 {
+    color: red;
+    font-size: medium;
+    height: 100px;
+    width: 80px;
+}
+p,h2 {
+    color: blue;
+    height: 100px;
+    width: 80px;
+}
+
