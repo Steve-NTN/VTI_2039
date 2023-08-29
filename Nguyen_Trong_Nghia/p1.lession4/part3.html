@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .article {
+        height: 350px;
+        background-color: yellow;
+        position: relative;
+        display: flex;
+        gap: 16px;
+        padding: 16px;
+      }
+      .article__title {
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+      }
+      .article__imagebox {
+        width: calc(100% / 3);
+        background-color: red;
+        height: 64px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="article">
+      <p class="article__title">Title</p>
+      <div class="article__imagebox">Image</div>
+      <div class="article__imagebox">Image</div>
+      <div class="article__imagebox">Image</div>
+    </div>
+  </body>
+</html>
