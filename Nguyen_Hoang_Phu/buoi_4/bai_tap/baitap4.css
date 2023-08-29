@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.BannerVTI {
+    background-color: #808080;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+    font-size: 30px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    padding: 32px 16px;
+}
+
+.item__container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.item2__container {
+    padding-left: 16px;
+}
+
+.item2__lorem {
+    float: left;
+    padding: 16px;
+    padding-left: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.item2 {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.Item {
+    background-color: aqua;
+    margin-bottom: 8px;
+    padding: 8px;
+    color: white;
+}
+
+.Footer {
+    background-color: #808080;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.bt2__header {
+    background-color: aqua;
+    float: left;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    padding: 40px 10px;
+}
+
+.bt2__noidung1__container {
+    clear: both;
+    padding-top: 10px;
+    margin: 0 350px;
+}
+
+.bt2__noidung1,
+.bt2__noidung2 {
+    display: flex;
+    gap: 5px;
+    padding: 5px 0;
+
+}
+
+.bt2__noidung1__item1 {
+    height: 150px;
+    background-color: green;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bt2__noidung1__item2 {
+    height: 150px;
+    background-color: purple;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bt2__noidung2__item1,
+.bt2__noidung2__item2 {
+    height: 100px;
+    background-color: orange;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bt2__footer {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.bt3__container {
+    padding: 10px;
+    background-color: #c4ebf9;
+}
+
+.bt3__container__header {
+    margin-bottom: 10px;
+}
+
+.bt3__container__footer {
+    margin-top: 10px;
+}
+
+.bt3__container__header,
+.bt3__container__footer {
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt3__container__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.bt3__container__content__item1,
+.bt3__container__content__item2 {
+    height: 300px;
+}
+
+.bt3__container__content__item1 {
+    width: 30%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt3__container__content__item2 {
+    width: 70%;
+    background-color: orange;
+    display: flex;
+}
+
+.bt3__container__content__item2__article {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.grid {
+    height: 400px;
+    padding: 10px;
+    display: grid;
+
+    background-color: #e4f0ff;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 10px;
+}
+
+.grid>div {
+    background-color: pink;
+    text-align: center;
+}
+
+.grid-item:nth-child(1) {
+    grid-column: 1 / span 3;
+}
+
+.grid-item:nth-child(5) {
+    grid-column: 1 / span 3;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.grid-2 {
+    background-color: #e4f0ff;
+    padding: 10px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: 1fr 2fr;
+    gap: 10px;
+}
+
+.grid-item-2 {
+    background-color: pink;
+}
+
+.grid-item-2:nth-child(1) {
+    grid-column: 1 / span 6;
+}
+
+.grid-item-2:nth-child(2) {
+    grid-column: span 10;
+}
+
+.grid-item-2:nth-child(3) {
+    grid-column: span 3;
+}
+
+.grid-item-2:nth-child(4) {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.grid-item-2:nth-child(5) {
+    grid-column: span 7;
+    grid-row: span 2;
+}
+
+.grid-item-2:nth-child(6) {
+    grid-row: span 2;
+}
+
+.grid-item-2:nth-child(7) {
+    grid-column: span 6;
+}
+
+.grid-item-2:nth-child(8) {
+    grid-column: span 13;
+}

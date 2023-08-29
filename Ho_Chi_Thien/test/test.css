@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    text-align: center;
+}
+
+.gach{
+    border-top: 3px solid #d78706;
+    width: 60px;
+    margin-bottom: 16px;
+    transform: translateX(50vw); 
+    /* vw là đơn vị chiều ngang màn hình nó hiểu là 50% chiều ngang màn hình 
+        - transform: là kiểu tác động và nó
+        translateX là dịch chuyển theo trục X là nawfmg ngang , y là trục dọc
+    */
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+}
+
+.header-content img{
+    max-width: 50px;
+}
+
+.header-content, .body-content{
+    margin-bottom: 24px;
+}
+
+/* dung flex len cha của 3 thằng left mid right thì 3 thằng ý cùng nằmg 1 hàng */
+.main-content{
+    display: flex;
+}
+
+/* để chia tỉ lệ đều thì mỗi thằng con để flex: 1 */
+/* chia ti le nhu nay vay */
+.left-content{
+    width: 30%;
+    flex: 0 0 auto;
+    min-height: 450px;
+}
+
+.mid-content{
+    width: 40%;
+    flex: 0 0 auto;
+    margin-right: 10px;
+
+}
+
+.right-content{
+    width: 30%;
+    flex: 0 0 auto;
+    min-height: 450px;
+}
+
+.mid-content img {
+    width: 100%;;
+
+}
