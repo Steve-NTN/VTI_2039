@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 300px;
+    height: 150px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1px;
+}
+.box__header{
+    width: 100%;
+    height: 15%;
+    background: rgb(196, 55, 137);
+    display: flex;
+    justify-content: space-between;
+}
+.box__header1{
+    width: 30%;
+    height: 100%;
+    border-left: 0.5px solid black;
+}
+.box__header3{
+    width: 30%;
+    height: 100%;
+    border-right: 0.5px solid black;
+}
+.box__header2{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    
+}
+.box__header2::before{
+    content: "Header";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 10px;
+}
+.box__main{
+    width: 100%;
+    height: 72%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.5px solid black;
+}
+.box__main_left-bar{
+    width: 30%;
+    height: 100%;
+    background: green;
+    position: relative;
+    border: 0.5px solid black;
+   
+}
+.box__main_left-bar::before{
+    content: "Left Bar";
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-size: 8px;
+}
+.box__main_content{
+    width: 40%;
+    height: 100%;
+    background: yellow;
+    border: 0.5px solid black;
+    position: relative;
+}
+.box__main_content::before{
+    content: "Content";
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-size: 8px;
+}
+.box__main_right-bar{
+    width: 30%;
+    height: 100%;
+    background: rgb(54, 207, 228);
+    position: relative;
+    border: 0.5px solid black;
+}
+.box__main_right-bar::before{
+    content: "Right Bar";
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-size: 8px;
+}
+
+.box__footer{
+    width: 100%;
+    height: 10%;
+    background: plum;
+    display: flex;
+}
+.box__footer1{
+    width: 30%;
+    height: 100%;
+    border-left: 0.5px solid black;
+}
+.box__footer3{
+    width: 30%;
+    height: 100%;
+    border-right: 0.5px solid black;
+}
+.box__footer2{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    
+}
+.box__footer2::before{
+    content: "Footer";
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 10px;
+}
