@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    border-top: 2px solid rgb(126, 126, 126);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 2px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.list__item--left{
+    list-style: none;
+    padding: 0;
+    color: rgb(147, 147, 147);
+}
+li{
+    display: inline;
+    padding: 10px;
+}
+.list__item--right{
+    list-style: none;
+    color: rgb(147, 147, 147) ;
+}
+.signup_icon > i{
+    padding: 5px;
+}
+.login_icon > i{
+    padding: 5px;
+}
+.main__img--banner{
+    height: 650px;
+}
+.img_banner{
+    width: 100%;
+    height: 100%;
+}
+.text__title--content{
+    text-align: center;
+}
+.content{   
+    display: flex;
+    justify-content:center;
+    width:calc(1020/3);
+    margin: auto;
+    gap: 30px;
+}
+.column_left{
+    text-align: right;
+    width: 340px;
+}
+.column_right{
+    text-align: left;
+    width: 340px;
+}
+.column{
+    display: flex;
+}
+.column > img{
+    padding: 0 5px;
+    margin-top: 15px;
+}
+.img{
+    width: 60px;
+    height: 60px;
+}
+.text{
+    font-size: 14px;
+}
+.img_center{
+    width: 400px;
+    height: 400px;
+}
