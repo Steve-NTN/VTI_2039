@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    margin-left: 0;
+}
+.main{
+    background-color: rgb(30, 1, 30);
+    width: 610px;
+    height: 330px;
+}
+.sidebar_left{
+    width:150px;
+    background-color: rgb(3, 175, 3);
+    height: 320px;
+    float: left;
+    margin-top: 5px;
+}
+.head1{
+    content: "";
+    clear: right;
+    display: table;
+}
+.header1{
+    width: 290px;
+    height: 100px;
+    background-color: rgb(3, 175, 3);
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.head2{
+    float: right;
+}
+.header2{
+    width: 140px;
+    height: 100px;
+    background-color: red;
+    margin-top: -100px;
+    margin-right:10px;
+}
+.sub1{
+    content: "";
+    clear: right;
+    display: table;
+}
+.submain1{
+    width: 140px;
+    height: 100px;
+    background-color: rgb(255, 196, 0);
+    margin-top: 10px;
+    margin-left:10px ;
+}
+.sub2{
+    float: right;
+}
+.submain2{
+    width: 140px;
+    height: 100px;
+    background-color: red;;
+    margin-top: -100px;
+    margin-right: 160px;
+}
+.sub3{
+    content: "";
+    clear: right;
+    display: table;
+}
+.submain3{
+    width: 140px;
+    height: 100px;
+    background-color: red;
+    margin-top: 10px;
+    margin-left:10px ;
+}
+.sub4{
+  float: right;
+}
+.submain4{
+    width: 140px;
+    height: 100px;
+    background-color: rgb(255, 196, 0);
+    margin-top: -100px;
+    margin-right: 160px;
+}
+.sidebar_right{
+    float: right;
+    width:140px;
+    background-color: rgb(3, 175, 3);
+    height: 210px;
+    margin-top: -210px;
+    margin-right: 10px;
+}

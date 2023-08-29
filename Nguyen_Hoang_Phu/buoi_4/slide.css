@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    background-color: black;
+    height: 400px;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.child {
+    padding: 20px;
+    height: 50px;
+    background-color: blue;
+}

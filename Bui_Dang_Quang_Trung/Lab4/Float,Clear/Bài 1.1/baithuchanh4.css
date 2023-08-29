@@ -1,0 +1,42 @@
+.header{
+    height: 100px;
+    background-color: gray;
+    float: left;
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    line-height: 13vh;
+    margin-bottom: 5px;
+}
+.submain{
+    content: "";
+    clear: both;
+    display:table;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.item-main{
+    float: left;
+}
+.item{
+    height: 34px;
+    width: 300px;
+    background-color: rgb(48, 197, 231);
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.text-main{
+   content: "";
+   clear: right;
+   display: table;
+}
+.text{
+    margin-left: 50px;
+}
+.footer{
+    height: 50px;
+    background-color: gray;
+    line-height: 6.5vh;
+    color: white;
+}
