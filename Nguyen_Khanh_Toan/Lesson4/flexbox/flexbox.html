@@ -42,6 +42,7 @@
 
         .article {
             background-color: orange;
+            position: relative;
             width: 75%;
             display: flex;
             justify-content: center;
@@ -53,13 +54,23 @@
             margin: 10px;
         }
 
-       
+       .article_p{
+        position: absolute;
+        left: 50%;
+        bottom: 50%;
+        transform: translate(-50%, 50%);
+       }
 
         .image {
             background-color: gold;
             width: 33%;
             height: 300px;
             color: aliceblue;
+            display: flex;
+            justify-self: center;
+            align-items: center;
+            text-align: center;
+            justify-items: center;
         }
     </style>
 </head>
@@ -72,7 +83,7 @@
         <div class="main">
             <div class="aside"></div>
             <div class="article">
-                
+                <p class="article_p">article</p>
                 <div class="image">image</div>
                 <div class="image">image</div>
                 <div class="image">image</div>
