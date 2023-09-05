@@ -1,0 +1,8 @@
+$bg_color: yellow;
+
+.container{
+    background-color: $bg_color;
+    p {
+        color: red;
+    }
+}
