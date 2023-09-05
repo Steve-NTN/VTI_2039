@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+}
+.header{
+    background-color: cadetblue;
+    height: 40px;
+}
+.banner{
+    background-color: rgb(19, 221, 103); 
+    height: 350px;
+}
+.submain1_left{
+    background-color: darkred; 
+    height: 200px;
+}
+.submain1_center{
+    background-color: rgb(183, 206, 180); 
+    height: 200px;
+}
+.submain1_right{
+    background-color: rgb(233, 18, 90); 
+    height: 200px;
+}
+.submain2_left{
+    background-color: lawngreen; 
+    height: 200px; 
+}
+.submain2_right{
+    background-color: rgb(67, 0, 252); 
+    height: 200px;
+}
+.footer{
+    background-color: darkorchid; 
+    height: 100px;
+}

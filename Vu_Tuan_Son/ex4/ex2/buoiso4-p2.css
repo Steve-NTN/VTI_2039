@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    border: 2px solid grey;
+    width: 500px;
+    height: 500px;
+    position: relative;;
+}
+.box--flex{
+    padding: 3px;
+    width: 500px;
+    height: 500px;
+}
+.box__header{
+    background: rgb(136, 177, 231);
+    height: 10%;
+    line-height: 50px;
+    padding: 0 15px;
+    color: white;
+}
+.box__main{
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box__main_content{
+    width: 69%;
+    height: 59%;
+    background-color: rgb(64, 167, 69);
+    position: relative;
+}
+.box__main_content::before{
+    content: ".main-content";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+}
+.box__main_sidebar{
+    width: 30%;
+    height: 59%;
+    background: rgb(175, 83, 175);
+    position: relative;
+}
+.box__main_twin{
+    width: 49.5%;
+    height: 40%;
+    background: rgb(206, 138, 59);
+    position: relative;
+}
+.box__main_sidebar::before{
+    content: ".sidebar";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+}
+.box__main_twin::before{
+    content: ".twin";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+}
+.box__footer{
+    background: rgb(136, 177, 231);
+    height:9.5%;
+    width: 100%;
+    font-size: 15px;
+    line-height: 50px;
+    padding: 0 15px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
