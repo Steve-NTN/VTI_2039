@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.VTI{
+    font-weight: 200;
+}
+.col3{
+    font-size: x-large;
+    margin: 10px;
+}
+.col4{
+    font-weight: bold;
+}
+.left p,.right p{
+    font-weight: 200;
+}
+.left{
+    text-align: right;
+}
+.right{
+    text-align: left;
+}
+.left::after{
+    background-image: url("./img/10.PNG");
+} 
