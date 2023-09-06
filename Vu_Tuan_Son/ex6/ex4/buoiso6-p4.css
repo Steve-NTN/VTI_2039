@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+th{
+    padding: 20px;
+}
+.table_2-1{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    background: grey;
+    margin-bottom: 5px;
+}
+.table_2-1-1{
+display: flex;
+flex-direction: column;
+}
+.table_2-1-1 b {
+    padding: 3px;
+    border-bottom:0.5px solid white ;
+}
+.table_2-1-2 p {
+    padding: 3px;
+    border-bottom:0.5px solid white ;
+}
+.table_1{
+    position: relative;
+}
+.table_2{
+    position: absolute;
+    top: 0;
+    margin: 20px 10px;
+    display: none;
+}
+@media screen and (max-width:640px){
+   .table_1{ 
+    display: none;
+   }
+   .table_2{
+    display: block;
+   }
+}
+
+   
