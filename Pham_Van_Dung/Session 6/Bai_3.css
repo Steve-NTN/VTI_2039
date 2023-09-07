@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin: 10px;
+}
+
+.box{
+    display: flex;
+}
+
+.item{
+    display: block;
+    padding: 30px ; 
+    list-style: none;
+    background-color: #20B2AA;
+    border: 0.5px solid rgb(92, 81, 81);
+    transition: 2s;
+}
+
+.item:hover{
+    background-color: #41BDB7;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 768px){
+    .item-none{
+        display: none;
+    }
+    .item{
+        padding: 10px;
+        font-size: 5px;
+    }
+}
