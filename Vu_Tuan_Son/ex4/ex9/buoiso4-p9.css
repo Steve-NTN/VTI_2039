@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box_1{
+    width: 100%;
+    height: 20%;
+    background: rgb(221, 221, 79);
+    position: relative;
+    border-radius: 5px;
+   
+}
+.box_1::before{
+    content: "1";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-size: 15px;
+}
+
+.box--flex{
+    width: 100%;
+    height: 78%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box_2{
+    width: 22%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box_2-1{
+    width: 100%;
+    height: 30%;
+    background: red;
+    position: relative;
+    border-radius: 5px;
+}
+.box_2-1::before{
+    content: "2";
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-size: 10px;
+}
+.box_2-2{
+    width: 100%;
+    height: 68%;
+    background: rgb(221, 221, 79);
+    position: relative;
+    border-radius: 5px;
+}
+.box_2-2::before{
+    content: "5";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-size: 10px;
+}
+.box_3{
+    width: 76%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box_3-1{
+    width: 100%;
+    height: 68%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box_3-1-1{
+    width: 59%;
+    height: 100%;
+    background: rgb(221, 221, 79);
+    position: relative;
+    border-radius: 5px;
+}
+.box_3-1-1::before{
+    content: "3";
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-size: 10px;
+}
+.box_3-1-2{
+    width: 39%;
+    height:100% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box_3-1-1-1{
+    width: 100%;
+    height: 49%;
+    background: red;
+    position: relative;
+    border-radius: 5px;
+}
+.box_3-1-1-1::before{
+    content: "4";
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-size: 10px;
+}
+.box_3-1-1-2{
+    width: 100%;
+    height: 49%;
+    background: red;
+    position: relative;
+    border-radius: 5px;
+}
+.box_3-1-1-2::before{
+    content: "6";
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-size: 10px;
+}
+.box_3-1-3{
+    background: rgb(221, 221, 79);
+    height: 30%;
+    position: relative;
+    border-radius: 5px;
+}
+.box_3-1-3::before{
+    content: "7";
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    color: black;
+    font-size: 10px;
+}
