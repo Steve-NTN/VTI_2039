@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Chương trình quản lý học viên</h3>
+    <button type="button" onclick="handleInput()">Nhập liệu</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody id="bodyTable"></tbody>
+    </table>
+
+    <script>
+        var listStudent;
+        function handleInput() {
+            var students = prompt("Mời bạn chọn số lượng học viên cần quản lý: ");
+            listStudent = new Array(students);
+            for (i = 0; i < students; i++) {
+                alert("Nhập liệu học viên thứ " + (i + 1));
+                var id = prompt("Nhập vào id học viên: ");
+                var name = prompt("Nhập vào tên học viên: ");
+                var student = {
+                    id: id,
+                    name: name,
+                };
+
+                listStudent[i] = student;
+            }
+            show();
+        }
+        function show() {
+            document.getElementById("bodyTable").innerHTML = "";
+            listStudent.forEach((student) => {
+                document.getElementById("bodyTable").innerHTML += ` 
+    <tr>
+        <td>${student.id}</td>
+        <td>${student.name}</td>
+     </tr>`;
+            });
+
+        }
+    </script>
+</body>
+
+</html>

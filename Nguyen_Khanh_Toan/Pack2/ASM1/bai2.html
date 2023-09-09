@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="">Số 1</label>
+    <input type="number" id="number1">
+    <br />
+    <label for="">Số 2</label>
+    <input type="number" id="number2">
+    <br />
+    <label for="">Kết quả: </label>
+    <br />
+    <button type="button"  onclick="handleSum()">Tổng 2 số</button>
+    <input type="text" id="sum" />
+
+    <script>
+       function handleSum(){
+        var number1 = document.getElementById("number1").value;
+        var number2 = document.getElementById("number2").value;
+        var sum = Number(number1) + Number(number2);
+        document.getElementById("sum").value = sum;
+       }
+    </script>
+</body>
+
+</html>
