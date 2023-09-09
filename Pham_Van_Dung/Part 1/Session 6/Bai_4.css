@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+
+.container td , .container th{
+    border: 0.5px solid white;
+}
+
+@media screen and (max-width: 768px){
+    thead {
+        display: none; 
+    }
+    .none td{
+        display: none;
+    }
+    .container, tbody , tr , td {
+        display: block;
+        width: 100%;
+    }
+    .container tr{
+        margin-bottom: 10px  ;
+    }
+    .container td{
+        text-align: left;
+        padding-left: 50%;
+        position: relative;
+    }
+    .container td::before{
+        content: attr(data-babel);
+        position: absolute;
+        left: 0;
+        padding-left: 10px;
+        font-weight: bold;
+        text-align: left;
+    }
+    .item1 , .item3{
+        background-color:#CCCCCC ;
+    }
+    .item2 td{
+        border-bottom: 0.2px solid rgb(109, 108, 108) ;
+    }
+}

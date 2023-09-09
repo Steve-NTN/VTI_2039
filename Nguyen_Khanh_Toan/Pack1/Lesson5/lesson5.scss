@@ -1,0 +1,14 @@
+$bg_color:yellow;
+@mixin common-conatiner{
+    background-color: aqua;
+}
+
+.container{
+    background-color: $bg_color;
+    p{
+        color: red;
+    }
+}
+.container2{
+    @include common-conatiner()
+}
