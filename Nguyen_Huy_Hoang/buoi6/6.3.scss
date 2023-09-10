@@ -3,8 +3,6 @@
     padding: 0;
 }
 .table{
-}
-.table:active{
-    min-width: 526px;
+    max-width: 526px;
     display: none;
 }
