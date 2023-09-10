@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <div>
+        <div>Mời bạn chọn trang web muốn chuyển đến</div>
+        <div>1. VTI academy</div>
+        <div>2. w3schools</div>
+        <div>3. google</div>
+        <div>4. dantri</div>
+        <button onclick="myFunction()">choice</button>
+    </div>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            // let favDrink = prompt("What's your favorite drink?", "Coca-Cola");
+            let choice = prompt("Mời bạn chọn:", 1);
+            console.log(choice)
+            switch (choice) {
+                case "1":
+                    window.location.href("https://vtiacademy.edu.vn/")
+                    break;
+                case "2":
+                    location.replace("https://www.w3schools.com/")
+                    break;
+                case "3":
+                    location.replace("https://www.google.com/")
+                    break;
+                case "4":
+                    location.replace("https://dantri.com.vn/")
+                    break;
+                default:
+                    location.replace("file:///C:/Users/Hi/OneDrive/Desktop/RAIWALL5/FrontendBasic/Assignment%201/Excersice7.3.html")
+                    break;
+                // document.getElementById("demo").innerHTML = text;
+            }
+
+
+
+        }
+    </script>
+
+</body>
+
+</html>
