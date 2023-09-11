@@ -1,0 +1,26 @@
+$bg_color: yellow;
+
+@mixin common-container {
+  background-color: gray;
+  color: black
+}
+
+.container1 {
+  @include common-container;
+  p {
+    color: red;
+  }
+}
+
+.container2 {
+  @include common-container;
+  p {
+    color: red;
+  }
+}
+
+@for $i from 1 through 10 {
+  .col#{$i} {
+    background-color: red;
+  }
+}

@@ -1,0 +1,11 @@
+$commoncolor : gray;
+$commonTextColor: yellow;
+
+
+.mybox {
+  background-color: $commoncolor;
+  color: $commonTextColor;
+  p {
+    color: red;
+  }
+}
