@@ -1,0 +1,47 @@
+.menu {
+    display: flex;
+    list-style: none;
+    background-color: #FF7F50;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    padding: 15px 30px;
+    transition: 2s;
+}
+
+.item:hover {
+    background-color: #444444;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.team-last {
+    float: right;
+}
+
+@media screen and (min-width:768px) {
+    .item-first {
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .box2 {
+        display: none;
+    }
+
+    .box1 {
+        flex-direction: column;
+        font-size: 15px;
+        width: 100%;
+    }
+}

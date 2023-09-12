@@ -1,0 +1,25 @@
+*{
+    margin-top: 5px;
+    padding: 0;
+}
+
+.form-control{
+    height: 25px;
+    width: 250px;
+}
+
+#title_sum{
+    background-color: #286090;
+    color: white;
+    padding: 5px 10px;
+}
+
+#title_sum:hover{
+    background-color: #5b768e;
+}
+
+#log{
+    color: red;
+    font-style: italic;
+    line-height:30px;
+}

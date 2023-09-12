@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;Ho_Chi_Thien/buoi6/reponsive.css
+}
+li{
+    list-style-type: none;
+}
+
+.main {
+    background-color: gray;
+}
+.main .title{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+.menu{
+    background-color: orange;
+    color: #fff;
+    font-size: 18px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+      display: flex;
+      
+
+}
+
+.list li, .list i , .gtb{
+      padding: 16px;
+}
+
+.list li:hover{
+    background-color: black;
+}
+
+.menubtn{
+    display: none;
+}
+
+/* bai2 */
+.bai2 .picture{
+    display: flex;
+}
+
+.g1{
+    display: flex;
+    flex: 4;
+}
+
+.g1 img{
+    width: 25%;
+
+}
+
+.g2{
+    flex: 1;
+
+}
+
+.g2 img{
+    width: 100%;
+
+}
+
+/* bai 3 */
+.page ul{
+    display: flex;
+}
+
+.bai3 h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.bai3 h4{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.page ul i, .page ul li {
+    padding: 16px;
+    background-color: rgb(7, 141, 96);
+    flex: 1;
+    border-right: 1px solid #333;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.active{
+    background-color: rgb(3, 214, 144) !important;
+}
+
+.page ul i {
+  
+
+}
+
+.page ul li {
+
+}
+
+/* bai4 */
+.bai4 table{
+    font-size: 18px;
+    width: 100%;
+
+}
+
+/* ------------------------------------------------ */
+
+/* reponsive */
+@media (max-width: 767px) {
+    .menubtn{
+        display: block;
+    }
+
+    .gtb{
+        display: none;
+    }
+
+    .menu .list{
+        flex-direction: column;
+        width: 100%;
+       
+    }
+
+    .list li {
+        border-bottom: 1px solid #fff;
+    }
+
+
+/* bai2 */
+.picture{
+    flex-direction: column;
+}
+.g1 img{
+    width: 50%;
+}
+
+.g1{
+    flex-wrap: wrap;
+}
+
+.g2 img{
+    transform: scale(0.75);
+}
+
+/* bai3 */
+
+.page ul li{
+    display: none;
+}
+
+
+.active{
+    display: block !important;
+}
+
+/* bai 4 */
+
+.bai4 thead{
+    display: none;
+
+}
+
+.bai4 tr {
+    margin-bottom: 20px;
+}
+
+.bai4 tbody, tr, td {
+    display: block;
+}
+
+tbody{
+    width: 100%;
+}
+
+.bai4 td::before{
+    content: attr(data-babel);
+    display: inline-block;
+    width: 300px;
+}
+
+.item2{
+    background-color: #fff ;
+}
+
+.item2 td{
+   border-bottom: 1px solid #ccc;
+   padding: 6px;
+}
+
+
+.item1 td, .item3 td {
+    border-bottom: 1px solid #fff;
+    padding: 6px;
+ }
+}

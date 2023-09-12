@@ -1,0 +1,14 @@
+.input{
+    background-color: #286090;
+    color: white;
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+}
+
+th , td{
+    text-align: center;
+    padding: 10px 50px;
+    border: 1px solid black;
+}
