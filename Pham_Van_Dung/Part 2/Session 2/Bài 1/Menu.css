@@ -1,0 +1,26 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FED100;
+}
+
+.box{
+    display: flex;
+    list-style: none;
+    font-weight:bolder;
+}
+
+.box li {
+    padding: 15px 20px;
+}
+
+.box li:hover{
+    background-color: #f0dd87;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
