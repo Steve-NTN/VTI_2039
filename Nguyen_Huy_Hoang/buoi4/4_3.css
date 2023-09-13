@@ -7,7 +7,11 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    clear:both
+    clear:both;
+    float: left;
+}
+.container::after{
+    clear: left;
 }
 .left{
     background-color: green;
@@ -18,12 +22,14 @@
     display: flex;
 }
 .mid{
+    width: 50%;
     display: flex;
     clear: both;
     float: left;
 }
 .right{
     display: flex;
+    float: right;
 }
 .mid_t{
     background-color: green;
@@ -36,8 +42,6 @@
 }
 .mid_m{
     display: flex;
-    float: left;
-    clear: both;
 }
 .mid_m_1{
     background-color: orange;
@@ -50,7 +54,7 @@
 }
 .right_t{
     background-color: red;
-    width: 500px;
+    width: 25%px;
     height:25% ;
     float: right;
     margin: 10px 2px 0px 0px;
