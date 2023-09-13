@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.img_item{
+    display: flex;
+}
+img {
+    width: 20%;
+    border: 2px solid black;
+}
+@media screen and (max-width:740px){
+ 
+    .img_item{
+        flex-wrap: wrap;
+    }
+    img{
+        width: 50%;
+    }
+    .img5{
+        width: 100%;
+    }
+}

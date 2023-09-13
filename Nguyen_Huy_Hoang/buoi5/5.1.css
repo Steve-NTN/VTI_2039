@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.col1{
+    background-color: #5F9EA0;
+    height: 50px;
+}
+.col2{
+    background-color: #13DD67;
+    height: 300px;
+    padding:
+}
+.left{
+    background-color: #8B0000;
+}
+.center{
+    background-color: #B7CEB4;
+}
+.right{
+    background-color: #E9125A;
+}
+.col3{
+    display: flex;
+    height: 200px;
+}
+.col4{
+    display: flex;
+    height: 100px;
+}
+.left1{
+    background-color: #7CFC00;
+}
+.right1{
+    background-color: #4300FC;
+}
+.col5{
+    background-color: #9932CC;
+    height: 50px;
+}
