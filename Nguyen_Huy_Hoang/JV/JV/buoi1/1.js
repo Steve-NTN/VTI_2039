@@ -1,0 +1,10 @@
+var myName = prompt("Bạn hãy nhập vào tên:")
+var myAge = prompt("Bạn hãy nhập vào tuổi:")
+var myGender = prompt("Bạn hãy nhập vào giới tính")
+var myAdd = prompt("Bạn hãy nhập vào địa chỉ:")
+var myClass = prompt("Bạn hãy nhập vào lớp:")
+document.getElementById("t1").innerHTML = "Tên của bạn là:" + myName
+document.getElementById("t2").innerHTML = "Tuổi của bạn là:" + myAge
+document.getElementById("t3").innerHTML = "Giới tính của bạn là:" + myGender
+document.getElementById("t4").innerHTML = "Địa chỉ của bạn là:" + myAdd
+document.getElementById("t5").innerHTML = "Lớp của bạn là:" + myClass

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: yellow;
+    width: auto;
+    height: fit-content;
+}
+#header{
+    width: 100vw;
+    padding: 10px;
+    font-weight: bold;
+}
+.login::before{
+    content: '🔗';
+}
+.sign::before{
+    content: '🔗';
+}
+img{
+    padding: 20px 0 0 0px;
+    width: auto;
+}
+.img2{
+    margin-left: 400px;
+}
