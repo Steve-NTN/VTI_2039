@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <form id="myForm">
+      <input type="text" name="input1" />
+      <input type="text" name="input2" />
+      <input type="submit" value="Go" />
+    </form>
+
+    <script>
+      $("#myForm").on("submit", function (event) {
+        var formData = $("#myForm").serialize();
+        var data = $("#myForm")
+          .serializeArray()
+          .reduce(function (obj, item) {
+            console.log(item, obj);
+            obj[item.name] = item.value;
+            return obj;
+          }, {});
+        event.preventDefault();
+      });
+    </script>
+  </body>
+  <script src="index.js"></script>
+</html>
