@@ -29,7 +29,7 @@ function createNewUser() {
         Birthday: birthday
     };
 
-    window.open('login.html', '_self');
+    window.open('Login.html', '_self');
 
     var json = JSON.stringify(user);
     localStorage.setItem('user', json);
@@ -53,5 +53,5 @@ function loginSuccess() {
 }
 
 function returnPageRegister() {
-    window.open('RegisterPage.html', '_self');
+    window.open('Register_System.html', '_self');
 }
