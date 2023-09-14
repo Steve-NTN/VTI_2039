@@ -1,4 +1,5 @@
-function loginSuccess() {
+function loginSuccess(event) {
+    event.preventDefault()
     var v_Email_Login_id = document.getElementById('email').value
     var v_Password_Login_id = document.getElementById('pwd').value
     var user = JSON.parse(localStorage.getItem('user')) 
