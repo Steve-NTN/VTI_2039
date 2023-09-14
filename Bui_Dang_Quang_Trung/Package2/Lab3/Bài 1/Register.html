@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="../code.jquery.com_jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h3>Register System</h3>
+        <form id="Form_Regis">
+            <div class="mb-3">
+                <label for="Name" class="form-label">Full Name:</label>
+                <input type="text" class="form-control" id="Name">
+              </div>
+              <div class="mb-3">
+                <label for="Email" class="form-label">Email:</label>
+                <input type="email" class="form-control" id="Email" >
+              </div>
+              <div class="mb-3">
+                <label for="Password" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="Password" >
+              </div>
+              <div class="mb-3">
+                <label for="ConfirmPass" class="form-label">Confirmation Password:</label>
+                <input type="password" class="form-control" id="ConfirmPass" >
+              </div>
+              <div class="mb-3">
+                <label for="Birthday" class="form-label">Birthday:</label>
+                <input type="date" class="form-control" id="Birthday">
+              </div>
+              <button  class="btn btn-success" onclick="register()">Register</button>
+              <button type="submit" class="btn btn-success" onclick="reset()">Reset</button>
+        </form>      
+    </div>
+    
+
+    <script src="baithuchanh.js"></script>
+</body>
+</html>

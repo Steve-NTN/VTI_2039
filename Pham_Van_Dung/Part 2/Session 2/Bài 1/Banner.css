@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    height: 451px;
+    max-width: 100%;
+}
+
+.img2{
+    margin-top: 30px;
+    height: 100px;
+}

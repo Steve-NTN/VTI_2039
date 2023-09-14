@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner{
+    margin-top: 20px;
+    position: relative;
+}
+.icon{
+    width: 100%;
+    position: absolute;
+    top: 220px;
+    transform: translateY(-23px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon-1 i{
+    font-size: 45px;
+    margin: 0 100px;
+}
+.icon-2 i{
+    font-size: 45px;
+    margin: 0 100px;
+}
