@@ -14,17 +14,7 @@
     </form>
 
     <script>
-      $("#myForm").on("submit", function (event) {
-        var formData = $("#myForm").serialize();
-        var data = $("#myForm")
-          .serializeArray()
-          .reduce(function (obj, item) {
-            console.log(item, obj);
-            obj[item.name] = item.value;
-            return obj;
-          }, {});
-        event.preventDefault();
-      });
+
     </script>
   </body>
   <script src="index.js"></script>
