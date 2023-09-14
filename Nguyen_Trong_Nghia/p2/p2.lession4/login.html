@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function mySubmit(event) {
+        event.preventDefault();
+        // Thông tin người đăng nhặp
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        var loginInfo = { email, password };
+
+        // Danh sách các tài khoản đã đăng ký
+        var accounts = JSON.parse(localStorage.getItem("accouts") || "[]");
+
+        // Kiểm tra tài khoản có trong localstorage hay ko
+        var isExists = false;
+        for (var i = 0; i < accounts.length; i++) {
+          var currentaccount = accounts[i];
+          if (
+            currentaccount.email === email &&
+            currentaccount.password === password
+          ) {
+            isExists = true;
+            break;
+          }
+        }
+
+        if (isExists) {
+          window.location.href = "./index.html";
+        } else {
+          alert("Tài khỏan hoặc mật khẩu bị sai");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    Login
+    <form onsubmit="mySubmit(event)">
+      <input name="email" id="email" />
+      <input name="password" id="password" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
