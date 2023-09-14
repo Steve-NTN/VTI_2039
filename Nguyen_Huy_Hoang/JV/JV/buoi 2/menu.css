@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: yellow;
+    width: 100vw;
+    height: fit-content;
+}
+#header{
+    padding: 10px;
+    font-weight: bold;
+}
+.login::before{
+    content: '🔗';
+}
+.sign::before{
+    content: '🔗';
+}
