@@ -1,3 +1,4 @@
+
 function Sum (){
     var number1 = document.getElementById("num_1").value  ; 
     var number2 = document.getElementById("num_2").value ; 
@@ -30,3 +31,4 @@ function check(num_1 , num_2 , result){
         document.getElementById("log").innerText = "Vui lòng nhập lại Số 2";
     }
 }
+

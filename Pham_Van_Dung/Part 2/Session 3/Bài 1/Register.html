@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="Register.css">
+    <script src="/VTI_2039/Pham_Van_Dung/Part 2/Jquery/code.jquery.com_jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <article class="container">
+       <h2>Register System</h2>
+       <div class="form-name">
+         <label for="">Full Name:</label><br>
+         <input type="text" id="input-fullName" >
+       </div>
+       <div class="from-email">
+        <label for="">Email:</label><br>
+        <input type="email" id="input-email">
+       </div>
+       <div class="from-password">
+        <label for="">Password:</label><br>
+        <input type="password" id="input-password">
+       </div>
+       <div class="from-comfirmation">
+        <label for="">Comfirmation Password:</label><br>
+        <input type="password" id="input-comfirmation">
+       </div>
+       <div class="from-birthday">
+        <label for="">Birthday:</label><br>
+        <input type="date" id="input-date">
+       </div>
+       <div class="button">
+           <button id="register" onclick="onclickRegister()">Register</button>
+           <button id="reset" onclick="onclickReset()">Reset</button>
+       </div>
+       <p id="log"></p>
+    </article>
+    <script  src="Register.js"></script>
+</body>
+</html>
