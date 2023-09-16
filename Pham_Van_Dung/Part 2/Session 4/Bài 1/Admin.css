@@ -1,0 +1,16 @@
+.Menu{
+    margin-bottom: 20px;
+}
+
+.Content{
+    margin-top: 60px;
+}
+
+.Menu{
+    margin-top: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
