@@ -1,5 +1,10 @@
 async function onCreateProduct(event) {
-  event.preventDefault();
+  event?.preventDefault();
+  localStorage.removeItem("selectedProductId");
+  onEditProduct();
+}
+
+async function onEditProduct() {
   var productId = document.getElementById("productId").value;
   var productName = document.getElementById("productName").value;
   var productPrice = document.getElementById("productPrice").value;
@@ -11,10 +16,17 @@ async function onCreateProduct(event) {
     productImage = await toBase64(productImageFile);
   }
 
-  var product = { productName, productPrice, productId, productImage };
+  var newProduct = { productName, productPrice, productId, productImage };
 
   var storeProducts = getStoreProducts();
-  storeProducts.push(product);
+  var selectedProductId = document.getElementById("selectedProductId");
+  if (selectedProductId) {
+    storeProducts = storeProducts.map((product) =>
+      product.productId === selectedProductId ? newProduct : product
+    );
+  } else {
+    storeProducts.push(newProduct);
+  }
   localStorage.setItem("products", JSON.stringify(storeProducts));
 
   // CLOSE MODAL
@@ -40,7 +52,7 @@ function loadProductsToHtml(products) {
         <p class="product__price">${currentProduct.productPrice}</p>
 
         <button type="button" class="btn btn-warning" onclick="onClickUpdateProduct('${`${currentProduct.productId}`}')">Sửa</button>
-        <button type="button" class="btn btn-danger">Xóa</button>
+        <button type="button" class="btn btn-danger" onclick="onClickDeleteProduct('${i}')">Xóa</button>
         </div>
         </div>
     `;
@@ -64,8 +76,18 @@ function onClickUpdateProduct(productId) {
 
   if (selectedProduct) {
     $("#productId").val(selectedProduct.productId);
+    $("#productName").val(selectedProduct.productName);
+    $("#productPrice").val(selectedProduct.productPrice);
   }
-  console.log(selectedProduct);
+}
+
+function onClickDeleteProduct(index) {
+  var products = getStoreProducts();
+  var filterProducts = products.filter(
+    (_, i) => i !== index
+  );
+  localStorage.setItem("products", JSON.stringify(filterProducts));
+  loadProductsToHtml(filterProducts);
 }
 
 const toBase64 = (file) =>

@@ -3,10 +3,17 @@ $(document).ready(function () {
 
   if (isLoggedin) {
     async function load_home() {
-      $("#header").load("./header");
+      // var header = document.getElementById("header")
       // header.innerHTML = await (await fetch("./header")).text();
+
+      // var script = document.createElement("script");
+      // script.innerHTML = await (await fetch("./header/header.js")).text();
+      // document.body.appendChild(script);
+
       // header.innerHTML = '<object type="text/html" data="./header" ></object>';
-      $("#content").load("./products");
+
+      $("#header").load("./header/index.html");
+      // $("#content").load("./products");
     }
 
     load_home();
