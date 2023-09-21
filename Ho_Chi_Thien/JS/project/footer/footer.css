@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  background-color: black;
+}
+
+.title {
+  font-weight: bold;
+  color: grey;
+}
+
+.text {
+  color: aliceblue;
+}
+
+.check {
+  max-width: 190px;
+}

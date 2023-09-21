@@ -1,0 +1,6 @@
+.infor {
+}
+
+.col-3:hover .infor {
+  font-weight: bolder;
+}

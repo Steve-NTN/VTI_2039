@@ -17,16 +17,5 @@ function loadProductsToHtml(products) {
   productsElement.innerHTML = productsHtml;
 }
 
-function onCreateProduct(event) {
-  event.preventDefault();
-  var productName = document.getElementById("productName").value;
-  var productPrice = document.getElementById("productPrice").value;
-  var product = { productName, productPrice };
-
-  var storeProducts = getStoreProducts();
-  storeProducts.push(product);
-  localStorage.setItem("products", JSON.stringify(storeProducts));
-  loadProductsToHtml(storeProducts);
-}
 
 loadProductsToHtml(getStoreProducts());

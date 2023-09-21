@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../detail/detail.css" />
+    <script
+      src="https://kit.fontawesome.com/c9dd876d42.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="row">
+      <!-- cho de anh san pham -->
+      <div class="col-12 col-md-6 col-lg-6">Anh san pham</div>
+      <!-- cho thong tin -->
+      <div class="col-12 col-md-6 col-lg-6">
+        <h4 class="ProductName">ten san pham</h4>
+        <p class="Price">Giá</p>
+        <p class="quantity text-dark fs-5 fw-normal">SL Có Sẵn:</p>
+        <div class="product-variants">
+          <div class="product-size d-flex fw-medium">
+            <p class="me-3">SIZE:</p>
+            <form class="form-size">
+              <label class="me-4">
+                <input class="" type="radio" name="size" value="S" />
+                S
+              </label>
+              <label class="me-4">
+                <input type="radio" name="size" value="M" />
+                M
+              </label>
+              <label class="me-4">
+                <input type="radio" name="size" value="L" />
+                L
+              </label>
+              <label class="me-4">
+                <input type="radio" name="size" value="XL" />
+                XL
+              </label>
+            </form>
+          </div>
+
+          <div class="add-card row">
+            <div class="col-lg-4 col-6 quantity-input">
+              <button class="quantity-btn decrease-btn">-</button>
+              <input type="number" class="quantity-field" value="1" />
+              <button class="quantity-btn increase-btn">+</button>
+            </div>
+
+            <div class="col-lg-8 col-6 btn-add">
+              <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+        <!-- phan thong tin van chuyen -->
+        <div class="product-policy d-flex mt-lg-4 mt-3">
+          <div class="item-policy">
+            Freeship đơn hàng giá trị trên 1 triệu đồng
+          </div>
+          <div class="item-policy">
+            Đổi hàng chưa qua sử dụng trong vòng 30 ngày
+          </div>
+        </div>
+
+        <!-- phan descreption -->
+        <div class="product-descreption mt-lg-4 mt-3">
+          <h5>Thông tin sản phẩm</h5>
+          <p>- Chất liệu: da PVC</p>
+          <p>- Hoạ tiết: Được may trực tiếp lên sản phẩm cực ngầu</p>
+          <p>- Thương hiệu: Degrey</p>
+          <p>- Sản xuất: Việt NamC</p>
+          <p>
+            - Màu sắc và họa tiết được thiết kế riêng bởi team design DEGREY
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
