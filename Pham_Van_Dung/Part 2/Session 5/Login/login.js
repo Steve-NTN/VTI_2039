@@ -14,7 +14,7 @@ function onclickLogin (){
     });
 
     if(check){
-        console.log('oke');
+        localStorage.setItem("loggedIn" , "1") ; 
         window.location.href = "../Main.html";
     }else {
         alert("Tài khoản mật khẩu đã sai!");
