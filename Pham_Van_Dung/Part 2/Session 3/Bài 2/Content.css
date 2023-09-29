@@ -19,3 +19,6 @@
     padding: 15px;
 }
 
+td {
+    word-break: break-all;
+}
