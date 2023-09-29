@@ -3,20 +3,20 @@
     padding: 0;
 }
 
-.Products-img{
-    height: 220px;
-    width: 200px;
-}
-
-.Products-item h3 ,.star{
-   margin: 10px 0;
-}
-
 .Products{
     display: flex;
     gap:40px;
     flex-wrap: wrap;
     justify-content:space-evenly; 
+}
+
+.Products-item h3 ,.star{
+    margin: 10px 0;
+}
+
+.Products-img{
+    height: 220px;
+    width: 200px;
 }
 
 .button-add{

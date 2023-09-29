@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    float: right;
+}
+
+.box-search{
+    padding: 20px 40px;
+    border: 1px solid black;
+}
+
+.box-product{
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 15px;
+}
+

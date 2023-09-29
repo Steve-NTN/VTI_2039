@@ -1,0 +1,69 @@
+.menu{
+    justify-content: space-between;
+    background-color: #D9E3F2;
+    ul{
+        li{
+            padding: 10px 20px;
+            a{
+                color: black;
+                font-weight: bold   ;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.admin__leftbar{
+    max-width: 200px;
+    margin-top: 20px;
+    ul{
+        margin-left: 5px;
+    }
+    h4{
+        margin-top: 20px;
+    }
+    .admin__leftbar--three{
+        margin-left: 5px;
+        padding: 20px;
+        border: 0.727px solid #dee2e6;
+        button{
+            margin-top: 20px;
+        }
+    }
+}
+
+.admin__rightbar{
+    margin: 76.5px 0 0 20px;
+    & .admin__rightbar--one{
+        border: 0.727px solid #dee2e6;
+        padding: 10px 0px;
+        input{
+            max-width: 60%;
+            margin: 0 30px;
+        }
+        button{
+            background-color: #5CB85C;
+            color: white
+        }
+    }
+    & .admin__rightbar--two{
+        border: 0.727px solid #dee2e6;
+        height: 500px;
+        & .addnew {
+            margin: 10px 20px;
+        }
+        & .transferBar{
+            margin: 10px 50px;
+        }
+    }
+}
+
+.td_img{
+    overflow: hidden;
+         text-overflow: ellipsis;
+         display: -webkit-box;
+         max-width: 150px;
+         -webkit-line-clamp: 1;
+         -webkit-box-orient: vertical;
+}
+

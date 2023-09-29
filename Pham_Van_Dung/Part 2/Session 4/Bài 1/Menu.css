@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9E3F2;
+}
+
+.box{
+    display: flex;
+    list-style: none;   
+}
+
+.box li {
+    padding: 20px 20px;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
