@@ -1,0 +1,35 @@
+.Menu{
+    background-color:#D9E3F2;
+}
+
+.box_left{
+    text-align: center;
+}
+.box_left-button{
+    border: none;
+}
+.box_left--categorys{
+    text-align: center;
+    margin-left: 5px;
+    border: 0.727px solid #dee2e6;
+}
+#search{
+    margin-top: 37px;
+    border: 0.727px solid #dee2e6;
+    padding: 20px;
+    border-radius: 5px;
+}
+#content{
+    border: 0.727px solid #dee2e6;
+    margin-top: 20px;
+    height: 90%;
+    border-radius: 5px;
+}
+
+.box_addNew{
+    margin: 20px 0 0 20px;
+}
+
+.table{
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+.menu {
+  justify-content: space-between;
+  background-color: #D9E3F2;
+}
+.menu ul li {
+  padding: 10px 20px;
+}
+.menu ul li a {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.admin__leftbar {
+  max-width: 200px;
+  margin-top: 20px;
+}
+.admin__leftbar ul {
+  margin-left: 5px;
+}
+.admin__leftbar h4 {
+  margin-top: 20px;
+}
+.admin__leftbar .admin__leftbar--three {
+  margin-left: 5px;
+  padding: 20px;
+  border: 0.727px solid #dee2e6;
+}
+.admin__leftbar .admin__leftbar--three button {
+  margin-top: 20px;
+}
+
+.admin__rightbar {
+  margin: 76.5px 0 0 20px;
+}
+.admin__rightbar .admin__rightbar--one {
+  border: 0.727px solid #dee2e6;
+  padding: 10px 0px;
+}
+.admin__rightbar .admin__rightbar--one input {
+  max-width: 60%;
+  margin: 0 30px;
+}
+.admin__rightbar .admin__rightbar--one button {
+  background-color: #5CB85C;
+  color: white;
+}
+.admin__rightbar .admin__rightbar--two {
+  border: 0.727px solid #dee2e6;
+  height: 500px;
+}
+.admin__rightbar .admin__rightbar--two .addnew {
+  margin: 10px 20px;
+}
+.admin__rightbar .admin__rightbar--two .transferBar {
+  margin: 10px 50px;
+}
+
+.td_img {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  max-width: 150px;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}/*# sourceMappingURL=admin.css.map */
